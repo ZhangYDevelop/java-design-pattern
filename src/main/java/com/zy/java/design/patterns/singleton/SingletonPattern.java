@@ -51,7 +51,7 @@ public class SingletonPattern {
         return SingleHolder.singleton;
     }
     /**
-     * 防止序列化破快单列
+     * 防止序列化破坏单列
      * @return
      */
     private Object readResolve(){
