@@ -1,7 +1,6 @@
 package com.zy.java.design.patterns.decorator;
-
 /**
- * 装饰者模式（Decorator Pattern）
+ * 装饰者模式（Decorator Pattern），源码体现：各种输入输出流
  * 列：煎饼加香肠、加鸡蛋
  */
 public class DecoratorPattern {
@@ -54,7 +53,7 @@ public class DecoratorPattern {
 
         @Override
         protected String getBatterCake() {
-            return super.getBatterCake() + "鸡蛋";
+            return super.getBatterCake() + "+ 鸡蛋";
         }
 
         @Override
@@ -75,7 +74,7 @@ public class DecoratorPattern {
 
         @Override
         protected String getBatterCake() {
-            return super.getBatterCake() + "鸡蛋 + 肠";
+            return super.getBatterCake() + "+ 鸡蛋 + 肠";
         }
 
         @Override
